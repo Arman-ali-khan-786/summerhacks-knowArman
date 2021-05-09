@@ -6,3 +6,183 @@
     style.css: You will write your css code for your portfolio website here. You can add other css files too but it must be under "css" folder.
 
 */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html{
+	scroll-behavior : smooth;
+}
+body {
+  background-image: url("beach2.jpeg"); 
+}
+strong{
+	color : Yellow;
+	
+}
+.me{
+	font-size: 20px;
+	color :yellow;
+	
+}
+
+header,footer{
+	background-image: url("headfoot.jpg");
+	position : absolute;
+	
+	width:100%;
+	color :orange;
+	
+}
+.about{
+	width:100%;
+	height:50vh;
+}
+header{
+	
+	position :fixed;
+	z-index : 10;
+	top:0;
+	height:5vh;
+}
+header h2{
+	position : absolute;
+	font-size : 30px;
+	left : 4%;
+	
+}
+
+span:hover{
+	text-decoration:none;
+	color:red;
+}
+.nav{
+	position:absolute;
+	width:100%;
+}
+a:hover{
+	background-color: #ddd;
+	padding:auto;
+}
+
+.nav a{
+	position:relative;
+	left:70%;
+	top:10px;
+	padding:5px;
+	margin-right:2%;
+	color: orange;
+	text-decoration:none;
+}
+.pp{
+	display:block;
+	float:left;
+	margin-right:auto;
+    border: 5px solid #555;
+}
+.tree{
+	float:right;
+}
+.top-wrapper{
+	width :100%;
+	height:50vh;
+}
+.head-1{
+	font-size: 30px;
+	text-align:center;
+	text-decoration: underline overline;
+}
+.flex-list{
+	display:flex;
+	flex-wrap:wrap;
+	
+}
+
+.li-1{
+	
+	list-style:none;
+	float:left;
+	margin-left:180px;
+	margin-right:20px;
+	
+}
+.li-1{
+	color:blue;
+}
+.con-hed{
+	margin-left:40%;
+	font-size:30px;
+	text-decoration:underline;
+}
+
+.contact{
+	height:30vh;
+	width:100%;
+	background-color:skyblue;
+	
+	
+}
+.font-awesome{
+	height:20vh;
+	display:flex;
+	justify-content: center;
+	align-items:center;
+	
+}
+.font-awesome a{
+
+	text-align:center;
+    background-color: #f5ff6fa;
+	border-radius:100px;
+	margin:20px;
+	line-height:110px;
+	padding-top:40px;
+	height:100%;
+	width:100%;
+	
+}
+.font-awesome a i{
+	transition: all 0.3s linear;
+	font-size:30px;
+}
+.font-awesome a i:hover{
+	transform: scale(1.4);
+}
+.fa-instagram{
+   color:#FF1493;
+   
+  
+}
+.fa-facebook{
+   color:	#663399;
+   
+  
+}
+.fa-twitter{
+   color: #00BFFF;
+   
+  
+}
+.fa-github{
+   color: black;
+   
+  
+}
+
+
+footer{
+	position:absolute;
+	z-index:8;
+	
+    
+}
+.footnaam:hover{
+	color:red;
+}
+
+footer h1{
+	font-size:20px;
+	margin-left:35%;
+}
