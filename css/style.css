@@ -16,7 +16,7 @@ html{
 	scroll-behavior : smooth;
 }
 body {
-  background-image: url("assets/beach2.jpeg"); 
+  background-image: url("https://github.com/Arman-ali-khan-786/summerhacks-knowArman/blob/main/assets/beach2.jpeg"); 
 }
 strong{
 	color : Yellow;
@@ -29,7 +29,7 @@ strong{
 }
 
 header,footer{
-	background-image: url("assets/headfoot.jpg");
+	background-image: url("https://github.com/Arman-ali-khan-786/summerhacks-knowArman/blob/main/assets/headfoot.jpg");
 	position : absolute;
 	
 	width:100%;
